@@ -31,11 +31,10 @@ Requirements
 - PHP 7.4+ (PHP 8 recommended) with `PDO` and `pdo_sqlite` enabled.
 
 Quick start
-Copy the content of the repo to your public or html directory.
 
-`/kid/` directory is a template that is used to create new kids.
-
-Run the interactive script `scripts/create_kid.php` (e.g. `php ./scripts/create_kid.php`). You will be prompted for a kid's name, and necessary files will be copied, and index.php and home.php will be ammended accrodingly.
+ - Clone this repo to a location that can be served by a http server with PHP support
+ - Edit scripts/password.php and put your own password (to prevent your kids from adding money on their own piggy bank...)
+ - Run the interactive script `scripts/create_kid.php` (e.g. `php ./scripts/create_kid.php`). You will be prompted for a kid's name, and necessary files will be copied, and index.php and home.php will be ammended accrodingly.
 
 Routes / Endpoints
 - `/` — home view that renders cards (the router maps `/`, `/alice`, `/victor` to the main home view).
