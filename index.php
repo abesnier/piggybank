@@ -23,6 +23,7 @@ if ($method === 'POST') {
 switch ($request) {
   case '':
   case '/':
+  case 'scripts/create_kid.php':
     require __DIR__ . $viewDir . 'home.php';
     break;
 /*

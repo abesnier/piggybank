@@ -40,7 +40,7 @@ $total = isset($data['total']) ? $data['total'] : 0;
         Total: <?php echo htmlspecialchars((string) $total, ENT_QUOTES, 'UTF-8'); ?> €
     </span>
     <span style="display: inline; vertical-align: sub;">
-        <a href="/<?php echo ($kid);?>/add"><img src = "/plus-sign.svg" /></a>
+        <a href="/<?php echo ($kid);?>/add"><img src = "img/plus-sign.svg" /></a>
     </span>
 </div>
 
