@@ -16,7 +16,7 @@ if ($json === false) {
     ob_start();
     // ensure read.php treats this as a GET
     $_SERVER['REQUEST_METHOD'] = 'GET';
-    include __DIR__ . '/'.$kid.'/read';
+    include __DIR__ . '/read.php';
     $json = ob_get_clean();
 }
 
